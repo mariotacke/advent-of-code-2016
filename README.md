@@ -7,6 +7,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 ## Days
 
 - [Day 1: No Time for a Taxicab](day-01-no-time-for-a-taxicab/)
+- [Day 2: Bathroom Security](day-02-bathroom-security/)
 
 ## Running Tests
 
