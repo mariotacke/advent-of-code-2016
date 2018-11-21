@@ -1,6 +1,7 @@
 const assert = require('assert');
 
 const { sumSectorIds, validate } = require('./security');
+const { decrypt } = require('./security2');
 
 describe('Day 4: Security Through Obscurity', () => {
   it('should validate if `aaaaa-bbb-z-y-x-123[abxyz]` is real', () => {
@@ -43,5 +44,11 @@ describe('Day 4: Security Through Obscurity', () => {
        totally-real-room-200[decoy]`;
 
     assert.strictEqual(sumSectorIds(rooms), 1514);
+  });
+
+  describe('Part Two', () => {
+    it('should decrypt `qzmt-zixmtkozy-ivhz-343`', () => {
+      assert.strictEqual(decrypt('qzmt-zixmtkozy-ivhz', 343), 'very encrypted name');
+    });
   });
 });
