@@ -1,20 +1,20 @@
 const noTimeForATaxicab = (input) => {
   let output;
-  
+
   const pastLocations = {};
-  
+
   const walkPoints = (p1, p2) => {
     const xLength = p2.x - p1.x;
     const yLength = p2.y - p1.y;
-    
+
     if (p1.y === p2.y) {
       for (let t = 1; t <= Math.abs(xLength); t++) {
         const x = p1.x + t * Math.sign(xLength);
-        
+
         if (!pastLocations[`${x}:${p1.y}`]) {
           pastLocations[`${x}:${p1.y}`] = 1;
         }
-        
+
         if (pastLocations[`${x}:${p1.y}`] === 2) {
           return { x, y: p1.y };
         } else {
@@ -22,7 +22,7 @@ const noTimeForATaxicab = (input) => {
         }
       }
     }
-    
+
     if (p1.x === p2.x) {
       for (let t = 1; t <= Math.abs(yLength); t++) {
         const y = p1.y + t * Math.sign(yLength);
@@ -39,8 +39,8 @@ const noTimeForATaxicab = (input) => {
       }
     }
   };
-  
-  const reduced = input
+
+  input
     .split(', ')
     .map((x) => {
       return {
@@ -48,11 +48,11 @@ const noTimeForATaxicab = (input) => {
         steps: parseInt(x.substring(1, x.length)),
       };
     })
-    .reduce((accumulator, currentValue) => {  
+    .reduce((accumulator, currentValue) => {
       let heading = accumulator.heading;
       let x = 0;
       let y = 0;
-      
+
       switch (heading) {
         case 'N':
           heading = currentValue.direction === 'L' ? 'W' : 'E';
@@ -87,8 +87,8 @@ const noTimeForATaxicab = (input) => {
 
       return accumulator;
     }, { heading: 'N', x: 0, y: 0 });
-    
-    return Math.abs(output.x) + Math.abs(output.y);;
+
+  return Math.abs(output.x) + Math.abs(output.y);
 };
 
 module.exports = noTimeForATaxicab;

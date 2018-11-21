@@ -29,8 +29,8 @@ const noTimeForATaxicab = (input) => {
 
       return accumulator;
     }, { heading: 'N', x: 0, y: 0 });
-    
-    return Math.abs(output.x) + Math.abs(output.y);
+
+  return Math.abs(output.x) + Math.abs(output.y);
 };
 
 module.exports = noTimeForATaxicab;
