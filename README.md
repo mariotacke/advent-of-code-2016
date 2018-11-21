@@ -9,6 +9,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 1: No Time for a Taxicab](day-01-no-time-for-a-taxicab/)
 - [Day 2: Bathroom Security](day-02-bathroom-security/)
 - [Day 3: Squares With Three Sides](day-03-squares-with-three-sides/)
+- [Day 4: Security Through Obscurity](day-04-security-through-obscurity/)
 
 ## Running Tests
 
