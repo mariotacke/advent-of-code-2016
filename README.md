@@ -11,6 +11,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 3: Squares With Three Sides](day-03-squares-with-three-sides/)
 - [Day 4: Security Through Obscurity](day-04-security-through-obscurity/)
 - [Day 5: How About a Nice Game of Chess?](day-05-how-about-a-nice-game-of-chess/)
+- [Day 6: Signals and Noise](day-06-signals-and-noise/)
 
 ## Running Tests
 
