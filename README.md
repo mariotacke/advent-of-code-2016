@@ -13,6 +13,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 5: How About a Nice Game of Chess?](day-05-how-about-a-nice-game-of-chess/)
 - [Day 6: Signals and Noise](day-06-signals-and-noise/)
 - [Day 7: Internet Protocol Version 7](day-07-internet-protocol-version-7/)
+- [Day 8: Two-Factor Authentication](day-08-two-factor-authentication/)
 
 ## Running Tests
 
