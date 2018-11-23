@@ -12,6 +12,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 4: Security Through Obscurity](day-04-security-through-obscurity/)
 - [Day 5: How About a Nice Game of Chess?](day-05-how-about-a-nice-game-of-chess/)
 - [Day 6: Signals and Noise](day-06-signals-and-noise/)
+- [Day 7: Internet Protocol Version 7](day-07-internet-protocol-version-7/)
 
 ## Running Tests
 
