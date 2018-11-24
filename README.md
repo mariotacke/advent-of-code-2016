@@ -14,6 +14,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 6: Signals and Noise](day-06-signals-and-noise/)
 - [Day 7: Internet Protocol Version 7](day-07-internet-protocol-version-7/)
 - [Day 8: Two-Factor Authentication](day-08-two-factor-authentication/)
+- [Day 9: Explosives in Cyberspace](day-09-explosives-in-cyberspace/)
 
 ## Running Tests
 
