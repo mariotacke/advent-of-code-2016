@@ -16,6 +16,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 8: Two-Factor Authentication](day-08-two-factor-authentication/)
 - [Day 9: Explosives in Cyberspace](day-09-explosives-in-cyberspace/)
 - [Day 10: Balance Bots](day-10-balance-bots/)
+- [Day 11: Radioisotope Thermoelectric Generators](day-11-radioisotope-thermoelectric-generators/)
 
 ## Running Tests
 
