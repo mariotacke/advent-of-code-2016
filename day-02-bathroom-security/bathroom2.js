@@ -34,7 +34,7 @@ const bathroom = (input) => {
       line
         .trim()
         .split('')
-        .forEach((direction) => keypad.move(direction))
+        .forEach((direction) => keypad.move(direction));
 
       return keypad.number;
     });
