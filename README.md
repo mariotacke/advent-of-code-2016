@@ -18,6 +18,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 9: Explosives in Cyberspace](day-09-explosives-in-cyberspace/)
 - [Day 10: Balance Bots](day-10-balance-bots/)
 - [Day 11: Radioisotope Thermoelectric Generators](day-11-radioisotope-thermoelectric-generators/)
+- [Day 12: Leonardo's Monorail](day-12-leonardos-monorail/)
 
 ## Running Tests
 
