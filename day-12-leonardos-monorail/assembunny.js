@@ -1,4 +1,4 @@
-const asm = (input) => {
+const asm = (input, a = 0, b = 0, c = 0, d = 0) => {
   const instructions = input
     .split('\n')
     .map((x) => {
@@ -17,12 +17,7 @@ const asm = (input) => {
       return instruction;
     });
 
-  const registers = {
-    a: 0,
-    b: 0,
-    c: 0,
-    d: 0,
-  };
+  const registers = { a, b, c, d };
 
   let position = 0;
 
