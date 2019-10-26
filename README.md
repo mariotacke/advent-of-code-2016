@@ -19,6 +19,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 10: Balance Bots](day-10-balance-bots/)
 - [Day 11: Radioisotope Thermoelectric Generators](day-11-radioisotope-thermoelectric-generators/)
 - [Day 12: Leonardo's Monorail](day-12-leonardos-monorail/)
+- [Day 15: Timing is Everything](day-15-timing-is-everything/)
 
 ## Running Tests
 
