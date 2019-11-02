@@ -1,11 +1,14 @@
-const md5 = require('md5');
+const crypto = require('crypto');
 
 const chess = (input) => {
   let password = Array.from({ length: 8 });
   let counter = 0;
 
   while (!password.every((x) => x)) {
-    const hash = md5(`${input}${counter}`);
+    const hash = crypto
+      .createHash('md5')
+      .update(`${input}${counter}`)
+      .digest('hex');
 
     if (hash.substr(0, 5) === '00000') {
       const position = parseInt(hash[5]);
