@@ -12,13 +12,18 @@ const getNextRow = (row) => {
   return nextRow.join('');
 };
 
+const countTiles = (row) => row.split('').filter((x) => x === '.').length;
+
 module.exports = (seed, iterations = 40) => {
-  const history = [seed];
+  let currentRow = seed;
+  let numberOfSafeTiles = countTiles(currentRow);
 
   for (let i = 0; i < iterations - 1; i++) {
-    history.push(getNextRow(history[i]));
+    const nextRow = getNextRow(currentRow);
+
+    numberOfSafeTiles += countTiles(nextRow);
+    currentRow = nextRow;
   }
 
-  return history
-    .reduce((a, b) => a + b.split('').filter((x) => x === '.').length, 0);
+  return numberOfSafeTiles;
 };
