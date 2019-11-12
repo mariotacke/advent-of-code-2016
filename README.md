@@ -24,6 +24,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 15: Timing is Everything](day-15-timing-is-everything/)
 - [Day 16: Dragon Checksum](day-16-dragon-checksum/)
 - [Day 18: Like a Rogue](day-18-like-a-rogue/)
+- [Day 19: An Elephant Named Joseph](day-19-an-elephant-named-joseph/)
 
 ## Running Tests
 
