@@ -23,6 +23,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 12: Leonardo's Monorail](day-12-leonardos-monorail/)
 - [Day 15: Timing is Everything](day-15-timing-is-everything/)
 - [Day 16: Dragon Checksum](day-16-dragon-checksum/)
+- [Day 18: Like a Rogue](day-18-like-a-rogue/)
 
 ## Running Tests
 
