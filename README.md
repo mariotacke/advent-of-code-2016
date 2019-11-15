@@ -26,6 +26,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 18: Like a Rogue](day-18-like-a-rogue/)
 - [Day 19: An Elephant Named Joseph](day-19-an-elephant-named-joseph/)
 - [Day 20: Firewall Rules](day-20-firewall-rules/)
+- [Day 21: Scrambled Letters and Hash](day-21-scrambled-letters-and-hash/)
 
 ## Running Tests
 
