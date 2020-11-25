@@ -29,6 +29,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 20: Firewall Rules](day-20-firewall-rules/)
 - [Day 21: Scrambled Letters and Hash](day-21-scrambled-letters-and-hash/)
 - [Day 22: Grid Computing](day-22-grid-computing/)
+- [Day 25: Clock Signal](day-25-clock-signal/)
 
 ## Running Tests
 
