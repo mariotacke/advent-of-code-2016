@@ -26,6 +26,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 14: One-Time Pad](day-14-one-time-pad/)
 - [Day 15: Timing is Everything](day-15-timing-is-everything/)
 - [Day 16: Dragon Checksum](day-16-dragon-checksum/)
+- [Day 17: Two Steps Forward](day-17-two-steps-forward/)
 - [Day 18: Like a Rogue](day-18-like-a-rogue/)
 - [Day 19: An Elephant Named Joseph](day-19-an-elephant-named-joseph/)
 - [Day 20: Firewall Rules](day-20-firewall-rules/)
