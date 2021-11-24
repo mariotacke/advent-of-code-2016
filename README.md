@@ -1,7 +1,7 @@
 # Advent of Code 2016 - My Solutions
 [![Build Status](https://github.com/mariotacke/advent-of-code-2016/workflows/build/badge.svg)](https://github.com/mariotacke/advent-of-code-2016/actions)
 [![Completion Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mariotacke/advent-of-code-2016/master/.github/badges/completion.json)](https://github.com/mariotacke/advent-of-code-2016)
-[![Dependency Status](https://img.shields.io/david/mariotacke/advent-of-code-2016.svg)](https://david-dm.org/mariotacke/advent-of-code-2016)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/mariotacke/advent-of-code-2016)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mariotacke/advent-of-code-2016/master/LICENSE)
 
 Santa's sleigh uses a very high-precision clock to guide its movements, and the clock's oscillator is regulated by stars. Unfortunately, the stars have been stolen... by the Easter Bunny. To save Christmas, Santa needs you to retrieve all *fifty stars* by December 25th.
